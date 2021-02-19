@@ -4,15 +4,10 @@ set par_1=%1
 ::DATABASE
 set par_2=%2
 ::HELP
-if %par_1%=="-h" (
-    echo "Unify Utente Database"
-    exit
-) 
-
-::ESISTENZA DI ENTRAMBI I PARAMETRI
-if %par_1%=="" (exit)
-    else
-    ( if %par_2%=="" (exit))
+if %par_1%==-h ( 
+	echo unify utente database
+	Exit /b
+)
 
 echo "CREAZIONE E POPOLAMENTO TABELLE..."
 
