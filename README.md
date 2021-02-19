@@ -1,5 +1,7 @@
 ### UNIFY DB ###
 
+[![Unify-Logo.png](https://i.postimg.cc/y8hSqBMf/Unify-Logo.png)](https://postimg.cc/LJXsLd6f)
+
 -Versione di PostgreSQL utilizzata: 12.2
 
 -Creare e popolare il DB:
